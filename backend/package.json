@@ -1,0 +1,22 @@
+{
+  "name": "ai-todo-backend",
+  "version": "1.0.0",
+  "description": "Production-grade AI-Powered Full-Stack To-Do Backend with Gemini and PostgreSQL RLS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "db:setup": "node src/db/migrate.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.27.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.13.1",
+    "zod": "^3.24.1"
+  }
+}

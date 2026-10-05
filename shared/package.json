@@ -1,0 +1,9 @@
+{
+  "name": "ai-todo-shared",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "validators/task.validator.js",
+  "dependencies": {
+    "zod": "^3.24.1"
+  }
+}
